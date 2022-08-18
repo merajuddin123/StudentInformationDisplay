@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+
+  <h1>Zenon Stack</h1>
+  <p>Digital Platform Strategy and Tailored Development Solutions for ensuring streamlined platform integration, architecture implementation and Migration.</p>
+  <p1>Xeon Phi[2] was a series of x86 manycore processors designed and made by Intel. It was intended for use in supercomputers, servers, and high-end workstations. Its architecture allowed use of standard programming languages and application programming interfaces (APIs) such as OpenMP.[3][4]
+
+    Xeon Phi launched in 2010. Since it was originally based on an earlier GPU design (codenamed "Larrabee") by Intel[5] that was cancelled in 2009,[6] it shared application areas with GPUs. The main difference between Xeon Phi and a GPGPU like Nvidia Tesla was that Xeon Phi, with an x86-compatible core, could, with less modification, run software that was originally targeted to a standard x86 CPU.
+
+    Initially in the form of PCIe-based add-on cards, a second-generation product, codenamed Knights Landing, was announced in June 2013.[7] These second-generation chips could be used as a standalone CPU, rather than just as an add-in card.
+
+
+    The Tianhe-2 supercomputer uses Xeon Phi processors.
+  </p1>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="aasim.jpeg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Dr. Aasim Zafar</h2>
+        <p class="title">Chairman & Professor</p>
+        <p>Dr. Aasim Zafar is Professor at Computer Science Department, Aligarh Muslim University, Aligarh, India. He holds Master in Computer Science and Applications and obtained the degree of Ph. D. in Computer Science, from Aligarh Muslim University, Aligarh, India.</p>
+        <p>aasim@amu.ac.in</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="nadeem.jpeg" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>Dr. Mohammad Nadeem</h2>
+        <p class="title">Professor at AMU</p>
+        <p>Dr. Mohammad Nadeem is currently working as Assistant Professor in the Department of Computer Science, AMU, Aligarh. He joined the department in June 2016. He has received his Ph.D in Computer Science from IIT(ISM), Dhanbad, Jharkhand in 2017.</p>
+        <p>nadeem@amu.ac.in</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="arsad.jpeg" alt="John" style="width:100%">
+      <div class="container">
+        <h2>Md Arsad Reza</h2>
+        <p class="title">Software Developer at KiwiTech</p>
+        <p> Strong in design and integration with intuitive problem-solving skills. Proficient in JAVA, C++, C, PYTHON, HTML5, PHP, Javascript and MySQL. Passionate about implementing and launching new projects. Ability to translate business requirements into technical solutions. </p>
+        <p>arsad@amu.ac.in</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+<marquee width="100%" height="30px" behavior="scroll" bgcolor="crimson">
+  <div id="register-link1" class="text-right">
+    <a href="/index" class="text-info">Home page</a>
+  </div>
+</marquee>
+
+</body>
+</html>
